@@ -8,6 +8,19 @@
  */
 
 // Your code :
+const array1 = [2, 42]
+const array2 = ['pouet', 4, true]
+const array3 = [getFirst]
+const array4 = ['salut']
+const array5 = []
+function getFirst (array1, array2, array3, array4){
+	return (array1[0]);
+	return (array2[0]);
+	return (array3[0]);
+	return (array4[0]);
+	return (array5[0]);
+}
+
 
 //* Begin of tests
 const assert = require('assert')

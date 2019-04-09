@@ -6,10 +6,14 @@
  * and wrapped by `*`
  *
  */
-
+function whisper(bla){
+	return bla.toLowerCase();
+}
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof whisper, "function")
+assert.strictEqual(whisper('HELLO'), 'hello')
+
 // End of tests */

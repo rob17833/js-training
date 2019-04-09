@@ -10,6 +10,13 @@
  */
 
 // Your code :
+function abs(nb){
+	if (nb<0){
+		return Math.sqrt(nb*nb);
+	}else{
+		return nb;
+	}
+}
 
 //* Begin of tests
 const assert = require('assert')

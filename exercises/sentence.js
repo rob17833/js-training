@@ -6,6 +6,11 @@
  *
  */
 
+function sentence(liste){
+	return liste.join(' ');
+}
+
+
 
 //* Begin of tests
 const assert = require('assert')

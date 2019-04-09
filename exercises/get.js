@@ -9,13 +9,16 @@
 
 // Provided code :
 const sourceObject = {
-  num: 42,
-  bool: true,
-  str: 'some text',
-  log: console.log,
+  num: 42, 
+  bool: true, 
+  str: 'some text', 
+  log: console.log, 
 }
 
 // Your code :
+function get(array){
+	return sourceObject[array];
+}
 
 //* Begin of tests
 const assert = require('assert')

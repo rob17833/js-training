@@ -8,6 +8,15 @@
  *
  */
 
+function repeat(xxx, nb){
+	let suite=''
+	for(let i=0 ; i<nb ; i++){
+		suite=suite+xxx
+	}
+	return suite;
+	
+}
+
 //* Begin of tests
 const assert = require('assert')
 
