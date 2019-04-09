@@ -1,4 +1,4 @@
+script: ./tester
 language: node_js
-rvm:
-  -6.9.0
-  -node_js
+node_js:
+- "node"
